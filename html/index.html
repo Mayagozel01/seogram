@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <meta name="copyright" content="MACode ID, https://macodeid.com/">
+
+  <title>turkmenpost</title>
+
+  <link rel="stylesheet" href="../assets/css/maicons.css">
+
+  <link rel="stylesheet" href="../assets/css/bootstrap.css">
+
+  <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
+
+  <link rel="stylesheet" href="../assets/css/theme.css">
+  <link rel="stylesheet" href="../assets/css/vivify.min.css">
+
+</head>
+<style>
+
+  @keyframes scalee {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+  }
+  @keyframes mymovey {
+    from { transform : translateX(0em) }
+    to   { transform : translateX(2em) } 
+}
+.myanimation3{
+  animation-name: mymovey;
+  opacity: 1;
+  animation-duration        : 3s;
+    animation-delay           : 1.5s;
+    animation-iteration-count : infinite;
+    animation-fill-mode       : forwards;
+}
+  @keyframes mymove {
+    from { transform : translateY(0em) }
+    to   { transform : translateY(3em) } 
+}
+@keyframes mymovex {
+    from { transform : translateX(0em) }
+    to   { transform : translateX(3em) } 
+}
+.myanimation1{
+  animation-name: mymovex;
+  opacity: 1;
+  animation-duration        : 3s;
+    animation-delay           : 1s;
+    animation-iteration-count : infinite;
+    animation-fill-mode       : forwards;
+
+}
+.myanimation {
+
+  animation-name: mymove;
+  opacity: 1;
+  animation-duration        : 2.5s;
+    animation-delay           : 1s;
+    animation-iteration-count : infinite;
+    animation-fill-mode       : forwards;
+
+}
+  .scaled:hover{
+    animation-duration: 0.5s;
+    animation-delay: 0.5;
+    animation-timing-function: ease-in;
+    animation-name: scalee;
+  }
+
+  .scaled:hover .card-service{
+    background-color: rgb(180, 180, 219);
+    transform: scale(0.7);
+  }
+  
+  a:hover{
+    transform: scale(1.1);
+  }
+  li:hover{
+    transform: scale(1.1);
+  }
+  p:hover{
+    transform: scale(1.1);
+  }
+</style>
+<script>
+  window.onload = function(){
+    document.body.classname+=" loaded";
+  }
+
+</script>
+<body class="fadein">
+
+  <!-- Back to top button -->
+  <div class="back-to-top"></div>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
+      <div class="container d-flex d-inline">
+        <a href="#" class="navbar-brand"><img src="../assets/surat/logo.png" width="70px;" height="60px;"><div 
+          style="display: flex; flex-direction:column; font-size: small;">
+          <span class="text-primary">"Turkmenpoçta"</span>
+          <span class="text-primary">poçta aragatnaşyk</span>
+        </div></a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Gazetler we Žurnallar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="forbidden.html">Gadagan goýumlary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">Nyrhnamalar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">Bölümler</a>
+            </li>
+            <li>
+              <div class="dropdown">
+                <button style="color: rgb(138, 136, 136);"class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" 
+                aria-haspopup="true" aria-expanded="false">
+                  Hyzmatlar
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <button class="dropdown-item" type="button"><a href="#" class="nav-link">EMS ýollamalary</a></button>
+                  <button class="dropdown-item" type="button"><a href="#" class="nav-link">Poçta ýollamalary</a></button>
+                  <button class="dropdown-item" type="button"><a href="#" class="nav-link">Çapar çagyrmak</a></button>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Biz barada</a>
+            </li>
+            <li>
+              <div class="dropdown">
+                <button style="color: rgb(138, 136, 136);"class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" 
+                aria-haspopup="true" aria-expanded="false">
+                  Online turkmenpost
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <button class="dropdown-item nav-item"  type="button"><a href="#" class="nav-link">Onlaýn abuna</a></button>
+                  <button class="dropdown-item nav-item" type="button"><a href="#" class="nav-link">Onlaýn market</a></button>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="page-banner home-banner">
+        <div class="row align-items-center flex-wrap-reverse h-100">
+          <div class="col-md-6 py-5 wow fadeInLeft">
+            <h1 class="mb-4">"Türkmenpoçta" Poçta aragatnaşyk kompaniýasy!</h1>
+            <p class="text-lg text-grey mb-5">"Türkmenpoçta" Poçta aragatnaşyk kompaniýasynyň islendik bölüminde Türkmenistanyň ähli ýerine, şeýle-de daşary ýurtlara hatlary, ýollamalary ugradyp bolýar. Uly göwrümli ýollamalary, 
+              EMS ýollamalary we tiz geçirimleri diňe eltip berme hyzmaty arkaly amala aşyrylýar.</p>
+          </div>
+          <div class="col-md-6 py-5 wow zoomIn ">
+            <div class="img-fluid text-center">
+              <img src="../assets/surat/EIG1.gif" class="myanimation" alt="" width="100%;">
+            </div>
+          </div>
+        </div>
+        <a href="#about" class="btn-scroll" data-role="smoothscroll"><span class="mai-arrow-down"></span></a>
+      </div>
+    </div>
+  </header>
+
+  <div class="page-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 scaled myanimation1">
+          <div class="card-service wow fadeInUp">
+            <div class="header">
+              <img src="../assets/surat/online-shop.png"class="spinIn delay-350 duration-1250" alt="">
+            </div>
+            <div class="body">
+              <h5 class="text-secondary">Onlaýn Söwda</h5>
+              <p>Öýe eltip bermek hyzmaty</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 scaled myanimation1">
+          <div class="card-service wow fadeInUp">
+            <div class="header">
+              <img src="../assets/surat/online-pay.png" class="spinIn delay-350 duration-1250" alt="">
+            </div>
+            <div class="body">
+              <h5 class="text-secondary">Onlaýn töleg</h5>
+              <p>Altyn-asyr karty bilen töleg geçirimleri</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 scaled myanimation1">
+          <div class="card-service wow fadeInUp">
+            <div class="header">
+              <img src="../assets/surat/images.png" class="spinIn delay-350 duration-1250"alt="">
+            </div>
+            <div class="body">
+              <h5 class="text-secondary">Pocta hyzmaty</h5>
+              <p>Dünýäniň islendik nokadyna poçta hyzmaty</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <!-- .container -->
+  </div> <!-- .page-section -->
+
+  <div class="page-section" id="about">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 py-3 wow fadeInUp">
+          <span class="subhead">Ynamly eltip-berme hyzmaty</span>
+          <h2 class="title-section">"Türkmenpoçta" kompaniýasy</h2>
+          <div class="divider"></div>
+
+          <p>“Türkmenpoçta” poçta aragatnaşyk kompaniýasynyň bölüminde Türkmenistanyň islendik çägine, şeýle-de daşary ýurtlara hatlary, ýollamalary ugradyp bolýar. Uly göwrümli ýollamalary, EMS ýollamalary we tiz geçirimleri diňe eltip berme hyzmaty arkaly amala aşyrýar.</p>
+          <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>
+          <a href="about.html" class="btn btn-primary mt-3">Giňişleýin</a>
+        </div>
+        <div class="col-lg-6 py-3 wow fadeInRight">
+          <div class="img-fluid py-3 text-center">
+            <img src="../assets/surat/postoff.jpg" class="myanimation"
+          alt="" width="80%;" height="80%;">
+          </div>
+        </div>
+      </div>
+    </div> <!-- .container -->
+  </div> <!-- .page-section -->
+
+  <div class="page-section bg-light">
+    <div class="container">
+      <div class="text-center wow fadeInUp">
+        <div class="subhead">Hyzmatlar</div>
+        <h2 class="title-section">"Türkmenpoçta" poçta aragatnaşyk kompaniýasy 075</h2>
+        <div class="divider mx-auto"></div>
+      </div>
+
+        <div class="row">
+          <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+            <div class="features myanimation3">
+              <div class="header mb-3 ball duration-2250 delay-1500">
+                <span class="mai-business"></span>
+              </div>
+              <h5>Poçta ýollamalary</h5>
+              <p>
+                öz içine ýönekeý we sargytly hatlary, M-haltalary, kiçi paketleri we posylkalary alýar.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+            <div class="features myanimation3">
+              <div class="header mb-3 ball duration-2250 delay-1500 ">
+                <span class="mai-business"></span>
+              </div>
+              <h5>Çapar çagyrmak</h5>
+              <p>
+                Biziň çaparymyz hatyňyzy ýa-da yollamaňyzy kabul eder, resmi kagyzy doldurmaga we ýollamany gaplamaga kömek eder, şeýle hem töleg kagyzyny we trek-belgisini berer</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+            <div class="features myanimation3">
+              <div class="header mb-3 ball duration-2250 delay-1500">
+                <span class="mai-business"></span>
+              </div>
+              <h5>Ekspress ýollamalar</h5>
+              <p>
+                bu Türkmenistan boýunça we daşary ýurtlara hatlary we ýollamalary ugratmagyň iň çalt we amatly usuly bolup durýar.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+            <div class="features myanimation3">
+              <div class="header mb-3 ball duration-2250 delay-1500">
+                <span class="mai-business"></span>
+              </div>
+              <h5>Kommunal hyzmatlary tölemek</h5>
+              <p>We analyse your website's structure, internal architecture & other key</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+            <div class="features myanimation3">
+              <div class="header mb-3 ball duration-2250 delay-1500">
+                <span class="mai-business"></span>
+              </div>
+              <h5>Pul ugratmak</h5>
+              <p>Poçtanyň üsti bilen pul  ugratmak</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+            <div class="features myanimation3">
+              <div class="header mb-3 ball duration-2250 delay-1500">
+                <span class="mai-business"></span>
+              </div>
+              <h5>OnSite SEO</h5>
+              <p>We analyse your website's structure, internal architecture & other key</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+            <div class="features myanimation3">
+              <div class="header mb-3 ball duration-2250 delay-1500">
+                <span class="mai-business"></span>
+              </div>
+              <h5>OnSite SEO</h5>
+              <p>We analyse your website's structure, internal architecture & other key</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 col-xl-3 py-3 wow zoomIn">
+            <div class="features myanimation3">
+              <div class="header mb-3 ball duration-2250 delay-1500">
+                <span class="mai-business"></span>
+              </div>
+              <h5>OnSite SEO</h5>
+              <p>We analyse your website's structure, internal architecture & other key</p>
+            </div>
+          </div>
+        </div>
+
+    </div> <!-- .container -->
+  </div>
+
+  
+
+  <!-- Banner info -->
+ <!-- .page-section -->
+
+  <!-- Blog -->
+  <div class="page-section">
+    <div class="container">
+      <div class="text-center wow fadeInUp">
+        <div class="subhead">Habarlar</div>
+        <h2 class="title-section">Iň soňky täzelikler</h2>
+        <div class="divider mx-auto"></div>
+      </div>
+
+      <div class="row mt-5 myanimation">
+        <div class="col-lg-4 py-3 wow fadeInUp">
+          <div class="card-blog">
+            <div class="header">
+              <div class="post-thumb">
+                <img src="../assets/img/blog/blog-1.jpg" alt="">
+              </div>
+            </div>
+            <div class="body">
+              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
+              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 py-3 wow fadeInUp">
+          <div class="card-blog">
+            <div class="header">
+              <div class="post-thumb">
+                <img src="../assets/img/blog/blog-2.jpg" alt="">
+              </div>
+            </div>
+            <div class="body">
+              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
+              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 py-3 wow fadeInUp">
+          <div class="card-blog">
+            <div class="header">
+              <div class="post-thumb">
+                <img src="../assets/img/blog/blog-3.jpg" alt="">
+              </div>
+            </div>
+            <div class="body">
+              <h5 class="post-title"><a href="#">Source of Content Inspiration</a></h5>
+              <div class="post-date">Posted on <a href="#">27 Jan 2020</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 mt-4 text-center wow fadeInUp">
+          <a href="blog.html" class="btn btn-primary">Dowam et  </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3 col-sm-6 p-5 m-0"><img width="100%"src="../assets/surat/yasyl.png" alt="hyzmatdashlar"></div>
+    <div class="col-md-3 col-sm-6 p-5 m-0"><img width="100%"src="../assets/surat/berkarar.png" alt="hyzmatdashlar"></div>
+    <div class="col-md-3 col-sm-6 p-5 m-0"><img width="100%"src="../assets/surat/sowgatlar.png" alt="hyzmatdashlar"></div>
+    <div class="col-md-3 col-sm-6 p-5 m-0"><img width="100%"src="../assets/surat/bildir.png" alt="hyzmatdashlar"></div>
+    <div class="col-md-3 col-sm-6 p-5 m-0"><img width="100%"src="../assets/surat/dhl.png" alt="hyzmatdashlar"></div>
+    <div class="col-md-3 col-sm-6 p-5 m-0"><img width="100%"src="../assets/surat/goshmak.png" alt="hyzmatdashlar"></div>
+    <div class="col-md-3 col-sm-6 p-5 m-0"><img width="100%"src="../assets/surat/tulm_new.svg" alt="hyzmatdashlar"></div>
+    <div class="col-md-3 col-sm-6 p-5 m-0"><img width="100%"src="../assets/surat/gala.png" alt="hyzmatdashlar"></div>
+  </div>
+  <footer class="page-footer bg-image" style="background-image: url(../assets/img/world_pattern.svg);">
+    <div class="container">
+      <div class="row mb-5 myanimation1">
+        <div class="col-lg-3 py-3 ">
+          <h3>Türkmenpoçta</h3>
+          <p>"Türkmenpoçta" Poçta aragatnaşyk kompaniýasynyň islendik bölüminde Türkmenistanyň ähli ýerine, şeýle-de daşary ýurtlara hatlary, ýollamalary ugradyp bolýar. Uly göwrümli ýollamalary, EMS ýollamalary we tiz geçirimleri diňe eltip berme hyzmaty arkaly amala aşyrylýar.</p>
+
+          <div class="social-media-button">
+            <a href="#" class="ball duration-2250 delay-150"><span class="mai-logo-facebook-f"></span></a>
+            <a href="#" class="ball duration-2250 delay-150"><span class="mai-logo-twitter"></span></a>
+            <a href="#" class="ball duration-2250 delay-150"><span class="mai-logo-google-plus-g"></span></a>
+            <a href="#" class="ball duration-2250 delay-150"><span class="mai-logo-instagram"></span></a>
+            <a href="#" class="ball duration-2250 delay-150"><span class="mai-logo-youtube"></span></a>
+          </div>
+        </div>
+        <div class="col-lg-3 py-3 myanimation1">
+          <h5 class="">Kompaniýa</h5>
+          <ul class="footer-menu">
+            <li><a href="#">Biz barada</a></li>
+            <li><a href="#">Chapar</a></li>
+            <li><a href="#">habarlar</a></li>
+            <li><a href="#">Hyzmatlar</a></li>
+            <li><a href="#">kömek we goldaw</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 py-3">
+          <h5 class="myanimation1">Habarlaşmak üçin</h5>
+          <p>Salgy: 744000, Aşgabat ş.,
+            Mäti Kösäýew köç., j 16</p>
+          <a href="#" class="footer-link">Telefon: +993 (12) 93-15-83</a>
+          <a href="#" class="footer-link">Telefon: +993 (12) 92-14-95</a>
+          <a href="#" class="footer-link">Faks: +993 (12) 93-10-31</a>
+          <a href="#" class="footer-link">Email: turkmenpost@online.tm</a>
+        </div>
+        <div class="col-lg-3 py-3">
+          <h5 class="myanimation1">Diller</h5>
+          <a href="#" class="footer-link">Iňlis dilinde</a>
+          <a href="#" class="footer-link">Rus dilinde</a>
+          <a href="#" class="footer-link">Türkmen dilinde</a>
+        </div>
+      </div>
+
+      <p class="text-center" id="copyright">&copy; 2022 "Türkmenpoçta" Poçta aragatnaşyk kompaniýasy </p>
+    </div>
+  </footer>
+
+<script src="../assets/js/jquery-3.5.1.min.js"></script>
+
+<script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+<script src="../assets/js/google-maps.js"></script>
+
+<script src="../assets/vendor/wow/wow.min.js"></script>
+
+<script src="../assets/js/theme.js"></script>
+  
+</body>
+</html>
